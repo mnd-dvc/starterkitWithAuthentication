@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  overflow: hidden;
+}
+
+.Container {
+  min-height: 100vh;
+}
+
+.Content {
+  padding: 15px;
+  overflow: auto;
+  height: 1px;
+}
+.menu{
+  min-height: 91vh;
+}
+
+.SiderLogo {
+  height: 19px;
+  margin-left: 15%;
+  margin-top: 25px;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+}
+
+.rightButton {
+  position: absolute;
+  right: -15%;
+  top: 3px;
+}
+
+.darkButton {
+  position: absolute;
+  right: -10%;
+  top: 3px;
+}
+.switcher { 
+  max-width: 72px !important;
+}

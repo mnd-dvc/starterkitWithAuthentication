@@ -1,0 +1,17 @@
+  
+  .bttns {
+    margin-left: 49%;
+    margin-top: -95px;
+  }
+  
+  .btn1 {
+    border-color: #F52441;
+    background-color: #F52441 !important;
+    margin: 20px;
+    color: white;
+  }
+  
+  .btn2 {
+    border-color: #3385FF;
+    background-color: #3385FF !important;
+  }

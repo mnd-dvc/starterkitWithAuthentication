@@ -1,0 +1,63 @@
+{
+    "parser": "@babel/eslint-parser",
+    "parserOptions": {
+      "ecmaVersion": 2015
+    },
+    "env": {
+      "browser": true,
+      "es6": true
+    },
+    "extends": ["airbnb", "prettier"],
+    "plugins": ["prettier"],
+    "rules": {
+      "prettier/prettier": [
+        "error",
+        {
+          "endOfLine": "auto"
+        }
+      ],
+      "no-multiple-empty-lines": [
+        "error",
+        {
+          "max": 1
+        }
+      ],
+      "linebreak-style": ["error", "unix"],
+      "max-len": [
+        "error",
+        {
+          "code": 120,
+          "ignoreRegExpLiterals": true
+        }
+      ],
+      "import/order": [
+        "error",
+        {
+          "groups": [
+            "builtin",
+            "external",
+            "internal",
+            "parent",
+            "sibling",
+            "index"
+          ],
+          "newlines-between": "always-and-inside-groups"
+        }
+      ],
+      "react/jsx-wrap-multilines": "off",
+      "react/jsx-one-expression-per-line": "off",
+      "react/prop-types": "off",
+      "jsx-a11y/media-has-caption": "off",
+      "no-unused-vars": "off",
+      "react/no-unknown-property": "off",
+      "react/jsx-no-bind": "off",
+      "no-restricted-syntax": "off",
+      "no-use-before-define": "off",
+      "no-nested-ternary": "off",
+      "no-param-reassign": "off",
+      "no-continue": "off",
+      "no-multi-assign": "off",
+      "react/no-array-index-key": "off"
+    }
+  }
+  
